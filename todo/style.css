@@ -1,19 +1,45 @@
-#taskForm {
+/* #taskForm {
     width: 25%;
     border: 5px groove black;
     background-color: lightgrey;
-    padding: 5px;
-    margin: auto;
+    padding: 50px 2px;
+    /* margin: 150px auto; 
+    margin:auto;
     text-align: center;
-    justify-content: center;
-  }
+    
+  } */
 
-  #taskList {
-    width: 25%;
-    margin-right: 40px;
+  /* #taskList {
+    width: 20%;
+    /* margin-right: 80px; 
     padding:20px;
-  }
+   
+  } */
 
+  /* .task-item {
+    /* display: flex;
+    align-items: center; 
+    margin-bottom: 5px;
+  } */
+
+  /* .task-item input[type="checkbox"] {
+    margin-right: 5px;
+    text-align: center; 
+  } */
+
+  /* .task-item label {
+    flex: 1;
+    margin-right: 5px;
+  } */
+
+  /* .task-item .remove-button {
+    margin-left: 170px;
+  } */
+  /* #taskList {
+    width: 25%;
+   margin: 20px auto; 
+  
+  }
   .task-item {
     display: flex;
     align-items: center;
@@ -30,5 +56,59 @@
   }
 
   .task-item .remove-button {
-    margin-left: 120px;
+    margin-left: 10px;
+  } */
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #taskFormContainer {
+    width: 30%;
+    background-color: lightgrey;
+    border: 5px groove black;
+    padding: 20px;
+  }
+
+  #taskForm {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #taskForm input[type="text"],
+  #taskForm button {
+    padding: 10px; 
+    margin-right: 5px; 
+  }
+  
+  #taskList {
+    margin-top: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+  }
+
+  .task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .task-item input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+
+  .task-item label {
+    flex: 1;
+    margin-right: 5px;
+  }
+
+  .task-item .remove-button {
+    margin-left: 10px;
+    cursor: pointer;
   }
